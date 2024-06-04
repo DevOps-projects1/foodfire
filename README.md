@@ -20,15 +20,29 @@
 > Clone the repo
 > `git clone https://github.com/itswadesh/foodfire.git`
 
+
 ### navigate inside the directory
 
 ```bash
 cd foodfire
 ```
 
+### Install the NodeJs latest version or LTS version
+    
+    sudo apt install nodejs -y
+    sudo npm i -g n
+    sudo n latest
+    or sudo n lts if you want to install LTS version
+
+  ### Install the yarn
+
+    npm install --global yarn
+
+
 ### install the dependencies with yarn
 
 `yarn`
+
 
 ### serve with hot reload at localhost:3000
 
