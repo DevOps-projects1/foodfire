@@ -30,9 +30,9 @@ cd foodfire
 ### Install the NodeJs latest version or LTS version
     
     sudo apt install nodejs -y
-    sudo npm i -g n
-    sudo n latest
-    or sudo n lts if you want to install LTS version
+    sudo npm i -g n latest
+    
+or sudo n lts if you want to install LTS version
 
   ### Install the yarn
 
