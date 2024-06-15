@@ -27,14 +27,13 @@
 cd foodfire
 ```
 
-### Install the NodeJs latest version or LTS version
-    
-    sudo apt install nodejs -y
-    sudo npm i -g n latest
-    
-or sudo n lts if you want to install LTS version
-
-  ### Install the yarn
+### Install the NodeJs latest version v16.10.0 version
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+    source ~/.bashrc
+    nvm install v16.10.0
+ 
+### Install the yarn
 
     npm install --global yarn
 
