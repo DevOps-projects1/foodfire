@@ -40,7 +40,7 @@ cd foodfire
 
 ### install the dependencies with yarn
 
-`yarn`
+`yarn`install
 
 
 ### serve with hot reload at localhost:3000
